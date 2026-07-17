@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at image_controller.v(76): always construct contains both blocking and non-blocking assignments File: F:/Github/VGA_GAME_MINI/image_controller.v Line: 76

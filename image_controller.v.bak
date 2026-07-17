@@ -1,0 +1,63 @@
+module image_controller #(
+// gioi han bien man hinh 
+parameter screen_max_x = 1366, 
+parameter screen_max_y = 768,
+// vi tri ban dau cua doi tuong 
+parameter start_x = 150,  // Horizontal = 1366
+parameter start_y = 700,   // Vertical = 768 
+// so buoc nhay pixel moi khi nhan btn
+parameter jump_x = 5, 
+parameter jump_y = 5
+)
+(
+input clk, // su dung tan so 50mhz 
+input resetn, 
+// button dieu khien trai, phai, tren, duoi
+input btn_right, 
+input btn_left, 
+input btn_top, 
+input btn_bot, 
+// vi tri xac dinh du lieu
+output [11:0]pos_x, 
+output [11:0]pos_y
+
+);
+
+// thuc hien buffer de giam nhieu button 
+reg bnt_left_1 =0, bnt_left_2 =0; 
+reg bnt_right_1 =0, bnt_right_2 =0; 
+reg bnt_top_1 =0, bnt_top_2 =0; 
+reg bnt_bottom_1 =0, bnt_bottom_2 =0; 
+wire left_press, right_press, top_press, bottom_press; 
+
+always @(posedge clk or negedge resetn) begin
+	if(!resetn) begin 
+		bnt_left_1 <=0; bnt_left_2 <=0;  
+		bnt_right_1 <=0, bnt_right_2 <=0; 
+		bnt_top_1 <=0, bnt_top_2 <=0;  
+		bnt_bottom_1 <=0, bnt_bottom_2 <=0; 
+	end else begin 
+		// button left
+		bnt_left_1 <= btn_left; 
+		
+		// button right 
+		// button top 
+		// button bottom 
+	end 
+end
+
+
+
+
+always@(posedge clk or negedge resetn) begin 
+	if(!resetn) begin 
+		pos_x <=0; 
+		pos_y <=0;
+	end 
+	else begin 
+		
+	end 
+end 
+
+
+

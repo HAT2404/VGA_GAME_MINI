@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Jul 17 20:03:17 2026
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Design_Game_VGA
+Top-level Entity Name : Design_Game_VGA
+Family : Cyclone IV E
+Total logic elements : 71
+    Total combinational functions : 63
+    Dedicated logic registers : 50
+Total registers : 50
+Total pins : 36
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

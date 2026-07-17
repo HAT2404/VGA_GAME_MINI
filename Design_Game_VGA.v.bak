@@ -1,0 +1,24 @@
+module Design_Game_VGA(
+input clk, // su dung tan so 50mhz
+input resetn,
+// tin hieu vga 
+output h_sync, 
+output v_sync, 
+output [7:0]vga_r, 
+output [7:0]vga_g, 
+output [7:0]vga_b
+// signal controller pixel
+); 
+
+
+// pll tao tan so 82.5Mhz va 100mhz
+
+
+
+// module dieu khien VGA 
+
+// module game controller 
+
+
+
+endmodule 
