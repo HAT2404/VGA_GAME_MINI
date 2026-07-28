@@ -39,8 +39,9 @@ Chú thích:
   + Front_Porch:là thời gian sau khi truyền xong vùng hiển thị và trước khi phát xung đồng bộ (Sync Pulse).
   + Sync_Pulse: thời gian ra lệnh xuống dòng 
   + Back_Porch: thời gian chờ để phần cứng ổn định để chuyển hàng.
+Gán chân:
+<img width="487" height="622" alt="image" src="https://github.com/user-attachments/assets/df5b6f52-62c6-4193-909f-1af504839304" />
 
-  
 
 
 
